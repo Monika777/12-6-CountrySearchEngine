@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	background: #55ACEE;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	margin: 0, auto;
+}
+.main {
+	word-wrap: break-word;
+	text-align: center;
+	min-width: 400px;
+	margin-top: 50px;
+}
+h1 {
+	font-size: 3.5em;
+	font-family: 'Orbitron', sans-serif;
+}
+h2 { 
+	margin-top: 50px;
+ 	margin-bottom: 30px; 
+ 	font-family: 'Orbitron', sans-serif;
+}
+#country-name {
+	font-size: 2.3em;
+	padding-left: 20px;
+}
+#countries {
+	color: blue;
+	font-size: 1.7em;
+}
+.buttons {
+	margin-top: 100px;
+}
+button {
+	margin: 20px 0;	
+	background-color: #55ACEE;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	font-size: 1.3em;
+	width: 390px;
+	height: 50px;
+	border-radius: 5px;
+}
+button:hover { 
+	background: #5e9aff; 
+	text-decoration: none; 
+}
+
